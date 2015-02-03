@@ -22,9 +22,9 @@
 
 #*************Joomla***********************
 	#******Administracao******
-	# administracao: localhost/lis/site/administrator |/administrator
+	# administracao: localhost/xxyy/site/administrator |/administrator
 	# User: Admin
-	# Senha:
+	# Senha: Admin@3819
 	#************************
 
 	#******Banco de Dados******

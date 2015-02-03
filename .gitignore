@@ -7,3 +7,5 @@ configuration.php
 *~
 *#
 site/robots.txt
+site/.DS_Store
+site/configuration.php
