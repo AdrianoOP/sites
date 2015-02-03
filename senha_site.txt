@@ -1,0 +1,40 @@
+#*************Informacoes sobre o site***********************
+# Dominio:
+# Dono do site:
+# Empresa: 
+# Nome do contato:
+# Telefone pra contato:
+# E-mail pra contato:
+#***********************************************************
+
+
+#*************Acesso ao painel***********************
+# Painel:
+# Usuario:
+# Senha:
+***************************************************
+
+#*************Acesso Dns***********************
+# Endereço: 
+# Usuário: 
+# Senha:
+#****************************************************
+
+#*************Joomla***********************
+	#******Administracao******
+	# administracao: localhost/lis/site/administrator |/administrator
+	# User: Admin
+	# Senha:
+	#************************
+
+	#******Banco de Dados******
+	# Tipo do banco: MySQL
+	# Acesso via: PhpMyAdmin
+	# Banco:
+	# Host:
+	# usuário:
+	# Senha:
+	#************************
+
+        #Prefixo das tabelas: joomla_
+#***************************************************

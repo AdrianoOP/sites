@@ -1,0 +1,9 @@
+# arquivo de ignore de commits
+
+senha_site_vieira.txt
+backup
+backup/*
+configuration.php
+*~
+*#
+site/robots.txt
