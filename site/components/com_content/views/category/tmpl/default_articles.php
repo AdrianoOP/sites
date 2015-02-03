@@ -9,9 +9,7 @@
 
 defined('_JEXEC') or die;
 
-JHtml::addIncludePath(JPATH_COMPONENT.'/helpers/html');
-
-JHtml::_('behavior.framework');
+JHtml::addIncludePath(JPATH_COMPONENT . '/helpers/html');
 
 // Create some shortcuts.
 $params		= &$this->item->params;
@@ -19,8 +17,9 @@ $n			= count($this->items);
 $listOrder	= $this->escape($this->state->get('list.ordering'));
 $listDirn	= $this->escape($this->state->get('list.direction'));
 
-// check for at least one editable article
+// Check for at least one editable article
 $isEditable = false;
+
 if (!empty($this->items))
 {
 	foreach ($this->items as $article)
@@ -122,7 +121,7 @@ if (!empty($this->items))
 							$active		= $menu->getActive();
 							$itemId		= $active->id;
 							$link = JRoute::_('index.php?option=com_users&view=login&Itemid='.$itemId);
-							$returnURL = JRoute::_(ContentHelperRoute::getArticleRoute($article->slug));
+							$returnURL = JRoute::_(ContentHelperRoute::getArticleRoute($article->slug, $article->catid));
 							$fullURL = new JUri($link);
 							$fullURL->setVar('return', base64_encode($returnURL));
 							?>
