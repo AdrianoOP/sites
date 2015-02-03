@@ -1,5 +1,7 @@
 # arquivo de ignore de commits
 
+*.DS_Store*
+.DS_Store
 senha_site_vieira.txt
 backup
 backup/*
